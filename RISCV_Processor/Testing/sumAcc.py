@@ -1,0 +1,10 @@
+from simpleAssembler import *
+print(romHeaderTxt())
+print(buildInstrucOnlyInstrucHex(["addi",{"rd":1,"rs1":0,"Imm":12}]))
+print(buildInstrucOnlyInstrucHex(["addi",{"rd":2,"rs1":0,"Imm":0}]))
+print(buildInstrucOnlyInstrucHex(["beq" ,{"rs1":1,"rs2":0,"Imm":8}]))
+print(buildInstrucOnlyInstrucHex(["add" ,{"rd":2,"rs1":2,"rs2":1}]))
+print(buildInstrucOnlyInstrucHex(["addi",{"rd":1,"rs1":1,"Imm":-1}]))
+print(buildInstrucOnlyInstrucHex(["beq" ,{"rs1":0,"rs2":0,"Imm":-6}]))
+print(buildInstrucOnlyInstrucHex(["addi",{"rd":0,"rs1":2,"Imm":0}]))
+print(buildInstrucOnlyInstrucHex(["beq" ,{"rs1":0,"rs2":0,"Imm":0}]))

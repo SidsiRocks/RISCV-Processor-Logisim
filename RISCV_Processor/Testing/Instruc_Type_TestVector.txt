@@ -1,0 +1,6 @@
+opcode[7] R_type I_type LoadInstruc StoreInstruc BranchInstruc
+0110011 1 0 0 0 0
+0010011 0 1 0 0 0
+0000011 0 0 1 0 0
+0100011 0 0 0 1 0
+1100011 0 0 0 0 1
